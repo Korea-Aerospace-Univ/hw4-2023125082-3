@@ -4,8 +4,8 @@ int main(void)
 {
     int n, i = 0;
     char ch = '\0';
-    int lower_cnt, digit_cnt = 0;
-    int lower_max, digit_max = 0;
+    int lower_cnt = 0, digit_cnt = 0;
+    int lower_max = 0, digit_max = 0;
 
     scanf("%d", &n);
     getchar();
