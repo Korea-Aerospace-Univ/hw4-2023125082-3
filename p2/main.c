@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int n, i = 0;
+    int n;
     char ch = '\0';
     int lower_cnt = 0, digit_cnt = 0;
     int lower_max = 0, digit_max = 0;
@@ -10,7 +10,7 @@ int main(void)
     scanf("%d", &n);
     getchar();
 
-    for (i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         scanf("%c", &ch);
 
         if (ch >= 'a' && ch <= 'z')
